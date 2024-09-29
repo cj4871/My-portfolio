@@ -1,14 +1,10 @@
-export default function Porfolio({data}){
+
+export default function Porfolio(){
     return(
         <>
-        <h2>Project:</h2>
-        <p>{data.title}</p>
+        <img src="" alt="" />
+        <h2>Project: </h2>
         <h2>Description:</h2>
-        <p>{data.desc}</p>
-        <a href={data.deployUrl}>
-            <img src={data.imgUrl}alt="" />
-        </a>
-
         {/* finish this later */}
         </>
     )
