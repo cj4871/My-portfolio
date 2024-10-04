@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import NavLinks from './components/NavLinks'
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <NavLinks />
       <Outlet />
+      <Footer />
     </>
   );
 }
